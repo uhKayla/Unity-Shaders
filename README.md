@@ -10,7 +10,7 @@ Created this to make a folder full of basic shaders I use for world creation. Mo
     * Cutout
     * Opaque
     * Transparent
-        * This shader is meant to mimick the usage of texture maps for HDRP, makes it easy to convert HDRP materials without any effort. You can also use a tool such as a mask map packer to create single image masks for mapping worlds when texturing is finished, this will reduce world size as there is ultimately less image maps.
+        * This shader is meant to mimick the usage of texture maps for HDRP, makes it easy to convert HDRP materials without any effort. You can also use a tool such as [MaskMapPacker](https://github.com/uhKayla/MaskMapPacker) to create single image masks for mapping worlds when texturing is finished, this will reduce world size as there is ultimately less image maps.
         * ![HDRP Shader Example](/Shaders/KaylasShaders/ExampleImages/HDRPExample.png)
         * ![HDRP Mask Map](/Shaders/KaylasShaders/ExampleImages/HDRPMask.png)
 * **Basic Triplanar**
