@@ -4,6 +4,8 @@
 
 Created this to make a folder full of basic shaders I use for world creation. Most of these are made with Amplify editor meaning they can be edited there as well!
 
+All shaders in this repo are Built-In pipeline compatible shaders.
+
 ## Shader List
 
 * **HDRP Conversion Shader**
