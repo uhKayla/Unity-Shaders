@@ -23,6 +23,10 @@ All shaders in this repo are Built-In pipeline compatible shaders.
         * ![Triplanar Example](/Shaders/KaylasShaders/ExampleImages/TriplanarUnmapped.png)
 * **Standard-Roughness**
     * This is a super basic shader that converts roughness maps into smoothness maps for Unity by inverting the Roughness map within the shader. Simple stuff.
+ * **Glass Refraction**
+      * Basic Glass refraction including a "polarization" effect, sort of like the light splitting wavelengths through glass. It has support for Opacity and Gloss maps. I mostly based the "polerization" off of the RollTheRed glass shader using a similar posterization effect to get the look.
+      * ![GlassRefract Example](/Shaders/KaylasShaders/ExampleImages/GlassExample1.png)
+      * ![GlassRefract Example2](/Shaders/KaylasShaders/ExampleImages/GlassExample2.png)
 * **Basic Iridescence**
     * An experimental iridescence shader that creates a fake iridescence effect. I missed this from HDRP so I tried to create it in the built-in pipeline. I am still trying to figure out how to properly implement the alpha channel in the albedo so it doesnt mess with the effect, so avoid using that for now.
         * ![Iridescence Example](/Shaders/KaylasShaders/ExampleImages/Iridescence.png)
